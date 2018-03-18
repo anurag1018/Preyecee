@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="filterOptionsStyle.css">
+    <link rel="stylesheet" href="jquery.mobile-1.4.5/jquery.mobile-1.4.5.css">
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="jquery.mobile-1.4.5/jquery.mobile-1.4.5.js"></script>
+
+
+</head>
+<body>
+
+<div class="filterBar">
+<form>
+        
+        <select class= id="flip-1" name="flip-1" data-role="slider" >
+            <option value="off">Price</option>
+            <option value="on">Relevance</option>
+        </select>
+</form>
+    <form>
+        <div data-role="rangeslider">
+            <label for="range-1a">Price Range Rs.</label>
+            <input type="range" name="range-1a" id="range-1a" min="1" max="9999" value="40">
+            <label for="range-1b">Rangeslider:</label>
+            <input type="range" name="range-1b" id="range-1b" min="1" max="9999" value="80">
+        </div>
+    </form>
+</div>
+</body>
+</html>

@@ -1,0 +1,12 @@
+.SearchBox{
+    top:50%;
+    left: 50%;
+    transform: translate3d(-50%,-50%, 0);
+    position: absolute;
+    text-align: center;
+}
+img{
+    width:318px;
+    height:252px;
+}
+

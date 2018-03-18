@@ -1,0 +1,39 @@
+.productWell{
+    /*float: right;*/
+    left: 20%;
+    text-align: center;
+    background-color: white;
+    /*width:22%;*/
+    margin:4px;
+    height:300px;
+    position:relative;
+
+}
+.productInfoBot{
+
+    position: absolute;
+    bottom: 0px;
+
+}
+#buyBtn{
+    right:5px;
+}
+#price{
+    left:5px;
+}
+img.productInfo{
+    max-width:80%;
+    max-height:60%;
+    height:50%;
+}
+.filterBar{
+
+    float: left;
+    left:0;
+    width:20%;
+    position: fixed;
+
+    margin-left:30px;
+
+
+}
